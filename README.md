@@ -1,4 +1,4 @@
-This repository contains a 3-tier architecture of AWS. The 3-tier architecture typically consists of the following layers:
+This is  a 3-tier architecture of AWS. The 3-tier architecture typically consists of the following layers:
 Presentation Layer (Web Tier): Handles user interactions. This layer consists of an Load Balancer (LB) distributing traffic to EC2 instances running web servers.
 Application Layer (App Tier): Hosts the application logic. This layer uses EC2 instances running the application behind another LB or an auto-scaling group.
 Data Layer (Database Tier): Manages the data storage. This layer typically uses an RDS (Relational Database Service) instance for database management.
